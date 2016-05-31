@@ -9,10 +9,4 @@ import { ChatComponent } from './chat';
   directives: [ChatComponent]
 })
 export class ClientAppComponent {
-  join = false;
-  
-  joinChat(){
-    this.join = !this.join;
-  }
-  
 }
