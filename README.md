@@ -4,10 +4,14 @@ Here is how to run the code
 
 Server:
 From the server folder 
-npm install
-node server.js
+
+1-npm install
+
+2-node server.js
 
 Client:
 From the client folder 
-npm install
-ng serve
+
+1-npm install
+
+2-ng serve
