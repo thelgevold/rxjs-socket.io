@@ -14,4 +14,6 @@ From the client folder
 
 1-npm install
 
-2-ng serve (assumes Angular CLI)
+2-typings install
+
+3-ng serve (assumes Angular CLI)
