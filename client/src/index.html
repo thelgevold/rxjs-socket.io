@@ -4,39 +4,11 @@
   <meta charset="utf-8">
   <title>Client</title>
   <base href="/">
-  <script src="vendor/socket.io-client/socket.io.js"></script>
-  
-  <script>
-  //   var socket = io('http://localhost:5000');
-  // socket.on('connect', function(){console.log('connecting from client');});
-  // socket.on('event', function(data){});
-  // socket.on('disconnect', function(){});
-  // socket.emit('sendMsg', { some: 'msg' });
-  </script>
-  
-  {{#unless environment.production}}
-  <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
-  {{/unless}}
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <client-app>Loading...</client-app>
-
-  
-
-    {{#each scripts.polyfills}}
-    <script src="{{.}}"></script>
-    {{/each}}
-    <script>
-      System.import('system-config.js').then(function () {
-        System.import('main');
-      }).catch(console.error.bind(console));
-    </script>
-
-  
-
-
-
 </body>
 </html>

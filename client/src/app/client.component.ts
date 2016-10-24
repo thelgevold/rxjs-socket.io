@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
-import { ChatComponent } from './chat';
 
 @Component({
-  moduleId: module.id,
   selector: 'client-app',
-  templateUrl: 'client.component.html',
-  styleUrls: ['client.component.css'],
-  directives: [ChatComponent]
+  templateUrl: './client.component.html'
 })
 export class ClientAppComponent {
 }
