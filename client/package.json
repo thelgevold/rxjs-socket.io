@@ -12,24 +12,27 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "~2.1.0",
-    "@angular/compiler": "~2.1.0",
-    "@angular/core": "~2.1.0",
-    "@angular/forms": "~2.1.0",
-    "@angular/http": "~2.1.0",
-    "@angular/platform-browser": "~2.1.0",
-    "@angular/platform-browser-dynamic": "~2.1.0",
-    "@angular/router": "~3.1.0",
+    "@angular/common": "~2.3.1",
+    "@angular/compiler": "~2.3.1",
+    "@angular/compiler-cli": "~2.3.1",
+    "@angular/core": "~2.3.1",
+    "@angular/forms": "~2.3.1",
+    "@angular/http": "~2.3.1",
+    "@angular/platform-browser": "~2.3.1",
+    "@angular/platform-browser-dynamic": "~2.3.1",
+    "@angular/router": "3.3.1",
     "core-js": "^2.4.1",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "5.0.0-rc.4",
     "ts-helpers": "^1.1.1",
-    "zone.js": "^0.6.23"
+    "zone.js": "^0.7.2",
+    "@angular/platform-server": "2.3.1"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.1",
+    "@angular/tsc-wrapped": "^0.5.0",
     "@types/jasmine": "^2.2.30",
     "@types/node": "^6.0.42",
     "@types/socket.io-client": "^1.4.27",
-    "angular-cli": "1.0.0-beta.18",
     "codelyzer": "1.0.0-beta.1",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
@@ -41,6 +44,8 @@
     "protractor": "4.0.9",
     "ts-node": "1.2.1",
     "tslint": "3.13.0",
-    "typescript": "~2.0.3"
+    "typescript": "~2.1.5",
+    "typings": "2.1.1",
+    "webpack": "2.2.1"
   }
 }
