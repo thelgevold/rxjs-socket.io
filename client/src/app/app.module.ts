@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
-import {ClientAppComponent} from './app/client.component';
-import {ChatComponent} from './app/chat/chat.component';
+import {ClientAppComponent} from './client.component';
+import {ChatComponent} from './chat/chat.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
 
@@ -9,5 +9,5 @@ import {FormsModule} from '@angular/forms';
   bootstrap: [ClientAppComponent],
   imports: [BrowserModule, FormsModule]      
 })
-export class AppModule {
-}
+
+export class AppModule {}

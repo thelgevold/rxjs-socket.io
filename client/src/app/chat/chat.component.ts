@@ -3,10 +3,7 @@ import { ChatService }       from './chat.service';
 
 @Component({
   selector: 'chat-component',
-  template: `<div *ngFor="let message of messages">
-              {{message.text}}
-             </div>
-             <input [(ngModel)]="message" /><button (click)="sendMessage()">Send</button>`,
+  templateUrl: './chat.component.html',
   providers: [ChatService]
 })
 export class ChatComponent implements OnInit, OnDestroy {
